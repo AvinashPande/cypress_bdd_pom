@@ -8,20 +8,28 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "smoke-test" : " npx cypress run --env tags='smoke'",
-    "reggression" : " npx cypress run --env tags='negative'",
-    "negative" : " npx cypress run --env tags='negative'",
-    "login-headleas" : " npx cypress run ",
-    "login-headed" : " npx cypress open "
+    "smoke-test": " npx cypress run --env tags='smoke'",
+    "reggression": " npx cypress run --env tags='negative'",
+    "negative": " npx cypress run --env tags='negative'",
+    "login-headleas": " npx cypress run ",
+    "login-headed": " npx cypress open "
   },
   "dependencies": {
-    "cypress": "^14.5.2"
+    "cypress": "^14.5.2",
+    "cypress-cucumber-attach-screenshots-to-failed-steps": "^1.0.0",
+    "multiple-cucumber-html-reporter": "^3.9.3"
   },
   "devDependencies": {
     "cypress-cucumber-preprocessor": "^4.3.1"
   },
- "cypress-cucumber-preprocessor": {
-  "nonGlobalStepDefinitions": false,
-  "step_definitions":"cypress/e2e/step_defination/*"
-}
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/e2e/step_defination/*",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
 }

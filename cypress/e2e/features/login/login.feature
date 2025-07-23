@@ -8,7 +8,7 @@ Scenario: sussess full login with standerd user
     When  enter username "standard_user" with Password "secret_sauce"
     And   I click on the login button 
     Then  shoould be redirect to dashboard page
-@regression @invalidlogin
+@regression @invalidlogin @smoke
 Scenario: Failed login with locked_out_user
      When enter username "locked_out_user" with Password "secret_sauce"
      And I click on the login button

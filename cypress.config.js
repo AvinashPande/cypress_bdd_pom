@@ -8,4 +8,8 @@ module.exports = defineConfig({
       on('file:preprocessor', cucumber())   
     },
   },
+  //env:{
+   // "TAGS" : '@smoke'
+   
+  //}
 });
