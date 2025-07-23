@@ -9,8 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "smoke-test" : " npx cypress run --env tags='smoke'",
-    "reggression" : " npx cypress run --env tags ='negative'",
-    "negative" : " npx cypress run --env tags ='negative'",
+    "reggression" : " npx cypress run --env tags='negative'",
+    "negative" : " npx cypress run --env tags='negative'",
     "login-headleas" : " npx cypress run ",
     "login-headed" : " npx cypress open "
   },
