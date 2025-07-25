@@ -1,0 +1,16 @@
+name : Cypress E2E test run on Chrome
+on:
+ 
+  schedule:
+    - cron: 1 * * * *
+jobs : 
+     cypress_run_chrome:
+       runs-on: ubuntu-24.04 
+       steps:
+          - name: Checkout The Code
+            uses: actions/checkout@v4
+     
+          - name: Cypress run
+            uses: cypress-io/github-action@v6
+            with:
+                command: npm run negative
