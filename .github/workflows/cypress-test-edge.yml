@@ -1,8 +1,8 @@
-name : Cypress E2E test run on Chrome
+name : Cypress E2E test run scheduler 
 on:
  
   schedule:
-    - cron: 1 * * * *
+    - cron: 1 5 * * *
 jobs : 
      cypress_run_chrome:
        runs-on: ubuntu-24.04 
