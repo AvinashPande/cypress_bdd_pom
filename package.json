@@ -9,9 +9,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "smoke-test": " npx cypress run --env tags='smoke' --browser chrome",
-    "reggression": " npx cypress run --env tags='negative'",
-    "negative": " npx cypress run --env tags='negative' -- browser edge",
-    "login-headleas": " npx cypress run ",
+     "negative-test": "npx cypress run --env tags='negative'",
+    "regression-test": "npx cypress run --env tags='regression'",
+    "test-critical": "npx cypress run -- env tags='critical'",
+    "test-auth": "npx cypress run --env tags='auth'",
+    "test:smoke-critical": "npx cypress run -e TAGS='@smoke and @critical'",
+    "test:smoke-critical:chrome-browser": "npx cypress run -e TAGS='@smoke and @critical' --browser chrome",
+    "test:smoke-critical:firefox-browser": "npx cypress run -e TAGS='@smoke and @critical' --browser firefox",
     "login-headed": " npx cypress open "
   },
   "dependencies": {
