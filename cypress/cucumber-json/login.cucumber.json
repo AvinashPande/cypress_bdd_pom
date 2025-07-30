@@ -36,7 +36,7 @@
             "name": "I am on the login page",
             "result": {
               "status": "passed",
-              "duration": 403000000
+              "duration": 1544000000
             }
           },
           {
@@ -46,7 +46,7 @@
             "name": "enter username \"standard_user\" with Password \"secret_sauce\"",
             "result": {
               "status": "passed",
-              "duration": 802000000
+              "duration": 884000000
             }
           },
           {
@@ -56,7 +56,7 @@
             "name": "I click on the login button",
             "result": {
               "status": "passed",
-              "duration": 705000000
+              "duration": 5860000000
             }
           },
           {
@@ -95,7 +95,7 @@
             "name": "I am on the login page",
             "result": {
               "status": "passed",
-              "duration": 158000000
+              "duration": 224000000
             }
           },
           {
@@ -105,7 +105,7 @@
             "name": "enter username \"locked_out_user\" with Password \"secret_sauce\"",
             "result": {
               "status": "passed",
-              "duration": 779000000
+              "duration": 914000000
             }
           },
           {
@@ -115,7 +115,7 @@
             "name": "I click on the login button",
             "result": {
               "status": "passed",
-              "duration": 88000000
+              "duration": 98000000
             }
           },
           {
@@ -125,7 +125,7 @@
             "name": "I should see error message \"Epic sadface: Sorry, this user has been locked out.\"",
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 16000000
             }
           },
           {
@@ -135,7 +135,7 @@
             "name": "I should remain on the login page",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 6000000
             }
           }
         ]
@@ -164,7 +164,7 @@
             "name": "I am on the login page",
             "result": {
               "status": "passed",
-              "duration": 185000000
+              "duration": 261000000
             }
           },
           {
@@ -174,7 +174,7 @@
             "name": "enter username \"invalid_user\" with Password \"wrong\"",
             "result": {
               "status": "passed",
-              "duration": 641000000
+              "duration": 718000000
             }
           },
           {
@@ -184,7 +184,7 @@
             "name": "I click on the login button",
             "result": {
               "status": "passed",
-              "duration": 91000000
+              "duration": 98000000
             }
           },
           {
@@ -194,7 +194,7 @@
             "name": "I should see error message \"Epic sadface: Username and password do not match any user in this service\"",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 13000000
             }
           },
           {
@@ -237,7 +237,7 @@
             "name": "I am on the login page",
             "result": {
               "status": "passed",
-              "duration": 132000000
+              "duration": 231000000
             }
           },
           {
@@ -247,7 +247,7 @@
             "name": "I enter username \"\"",
             "result": {
               "status": "passed",
-              "duration": 163000000
+              "duration": 171000000
             }
           },
           {
@@ -257,7 +257,7 @@
             "name": "I enter password \"secret_sauce\"",
             "result": {
               "status": "passed",
-              "duration": 375000000
+              "duration": 411000000
             }
           },
           {
@@ -267,7 +267,7 @@
             "name": "I click on the login button",
             "result": {
               "status": "passed",
-              "duration": 83000000
+              "duration": 87000000
             }
           },
           {
@@ -277,7 +277,7 @@
             "name": "I should see error message \"Epic sadface: Username is required\"",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 33000000
             }
           }
         ]
@@ -310,7 +310,7 @@
             "name": "I am on the login page",
             "result": {
               "status": "passed",
-              "duration": 164000000
+              "duration": 176000000
             }
           },
           {
@@ -320,7 +320,7 @@
             "name": "I enter username \"standard_user\"",
             "result": {
               "status": "passed",
-              "duration": 374000000
+              "duration": 427000000
             }
           },
           {
@@ -330,7 +330,7 @@
             "name": "I enter password \"\"",
             "result": {
               "status": "passed",
-              "duration": 153000000
+              "duration": 184000000
             }
           },
           {
@@ -340,7 +340,7 @@
             "name": "I click on the login button",
             "result": {
               "status": "passed",
-              "duration": 83000000
+              "duration": 96000000
             }
           },
           {
@@ -350,7 +350,7 @@
             "name": "I should see error message \"Epic sadface: Password is required\"",
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 10000000
             }
           }
         ]
@@ -383,7 +383,7 @@
             "name": "I am on the login page",
             "result": {
               "status": "passed",
-              "duration": 131000000
+              "duration": 198000000
             }
           },
           {
@@ -393,7 +393,7 @@
             "name": "I enter username \"\"",
             "result": {
               "status": "passed",
-              "duration": 168000000
+              "duration": 178000000
             }
           },
           {
@@ -403,7 +403,7 @@
             "name": "I enter password \"\"",
             "result": {
               "status": "passed",
-              "duration": 168000000
+              "duration": 169000000
             }
           },
           {
@@ -413,7 +413,7 @@
             "name": "I click on the login button",
             "result": {
               "status": "passed",
-              "duration": 89000000
+              "duration": 80000000
             }
           },
           {
@@ -423,7 +423,7 @@
             "name": "I should see error message \"Epic sadface: Username is required\"",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 8000000
             }
           }
         ]

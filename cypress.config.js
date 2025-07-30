@@ -8,8 +8,8 @@ module.exports = defineConfig({
       on('file:preprocessor', cucumber())   
     },
   },
-  env:{
+ // env:{
    // "TAGS" : '@auth'
    
-  }
+ // }
 });
