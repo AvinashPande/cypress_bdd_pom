@@ -1,4 +1,4 @@
-name : Cypress E2E test run on Chrome
+name : Cypress Smoke test run on Chrome
 on: push
 jobs : 
      cypress_run_chrome:
